@@ -47,7 +47,7 @@ export default function WaterTracker() {
     setIntake((prev) => {
       const newIntake = Math.min(prev + amount, goal);
       if (newIntake >= goal) {
-        setModalMessage('Congratulations! You have reached your goal 🥳');
+        setModalMessage('Congratulations You have reached your goal 🥳');
         setShowModal(true);
       }
       return newIntake;

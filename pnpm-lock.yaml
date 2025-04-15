@@ -12,7 +12,7 @@ dependencies:
 devDependencies:
   '@preact/preset-vite':
     specifier: ^2.10.1
-    version: 2.10.1(@babel/core@7.25.2)(preact@10.26.5)(vite@6.2.5)
+    version: 2.10.1(@babel/core@7.25.2)(preact@10.26.5)(vite@6.2.6)
   autoprefixer:
     specifier: ^10.4.21
     version: 10.4.21(postcss@8.5.3)
@@ -26,8 +26,8 @@ devDependencies:
     specifier: ^5.8.3
     version: 5.8.3
   vite:
-    specifier: ^6.2.5
-    version: 6.2.5
+    specifier: ^6.2.6
+    version: 6.2.6
 
 packages:
 
@@ -555,7 +555,7 @@ packages:
     dev: true
     optional: true
 
-  /@preact/preset-vite@2.10.1(@babel/core@7.25.2)(preact@10.26.5)(vite@6.2.5):
+  /@preact/preset-vite@2.10.1(@babel/core@7.25.2)(preact@10.26.5)(vite@6.2.6):
     resolution: {integrity: sha512-59lyGBXNfZIr5OOuBUB4/IB8AqF/ULbvYnyItgK/2BJnsGJqaeaJobRVtMp1129obHQuj8oZ/dVxB9inmH8Xig==}
     peerDependencies:
       '@babel/core': 7.x
@@ -564,12 +564,12 @@ packages:
       '@babel/core': 7.25.2
       '@babel/plugin-transform-react-jsx': 7.25.2(@babel/core@7.25.2)
       '@babel/plugin-transform-react-jsx-development': 7.24.7(@babel/core@7.25.2)
-      '@prefresh/vite': 2.4.6(preact@10.26.5)(vite@6.2.5)
+      '@prefresh/vite': 2.4.6(preact@10.26.5)(vite@6.2.6)
       '@rollup/pluginutils': 4.2.1
       babel-plugin-transform-hook-names: 1.0.2(@babel/core@7.25.2)
       debug: 4.3.6
       kolorist: 1.8.0
-      vite: 6.2.5
+      vite: 6.2.6
       vite-prerender-plugin: 0.5.4
     transitivePeerDependencies:
       - preact
@@ -592,7 +592,7 @@ packages:
     resolution: {integrity: sha512-KtC/fZw+oqtwOLUFM9UtiitB0JsVX0zLKNyRTA332sqREqSALIIQQxdUCS1P3xR/jT1e2e8/5rwH6gdcMLEmsQ==}
     dev: true
 
-  /@prefresh/vite@2.4.6(preact@10.26.5)(vite@6.2.5):
+  /@prefresh/vite@2.4.6(preact@10.26.5)(vite@6.2.6):
     resolution: {integrity: sha512-miYbTl2J1YNaQJWyWHJzyIpNh7vKUuXC1qCDRzPeWjhQ+9bxeXkUBGDGd9I1f37R5GQYi1S65AN5oR0BR2WzvQ==}
     peerDependencies:
       preact: ^10.4.0
@@ -604,7 +604,7 @@ packages:
       '@prefresh/utils': 1.2.0
       '@rollup/pluginutils': 4.2.1
       preact: 10.26.5
-      vite: 6.2.5
+      vite: 6.2.6
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1776,8 +1776,8 @@ packages:
       stack-trace: 1.0.0-pre2
     dev: true
 
-  /vite@6.2.5:
-    resolution: {integrity: sha512-j023J/hCAa4pRIUH6J9HemwYfjB5llR2Ps0CWeikOtdR8+pAURAk0DoJC5/mm9kd+UgdnIy7d6HE4EAvlYhPhA==}
+  /vite@6.2.6:
+    resolution: {integrity: sha512-9xpjNl3kR4rVDZgPNdTL0/c6ao4km69a/2ihNQbcANz8RuCOK3hQBmLSJf3bRKVQjVMda+YvizNE8AwvogcPbw==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
